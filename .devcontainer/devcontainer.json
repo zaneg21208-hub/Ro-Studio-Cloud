@@ -1,0 +1,11 @@
+{
+  "name": "Windows Cloud Machine",
+  "image": "dockur/windows",
+  "forwardPorts": [8006],
+  "portsAttributes": {
+    "8006": {
+      "label": "Windows Desktop",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
